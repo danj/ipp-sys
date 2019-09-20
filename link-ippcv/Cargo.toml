@@ -12,7 +12,9 @@ readme = "README.md"
 
 [dependencies]
 link-ippcore = { version = "0.1", path = "../link-ippcore" }
+link-ippvm = { version = "0.1", path = "../link-ippvm" }
 link-ipps = { version = "0.1", path = "../link-ipps" }
+link-ippi = { version = "0.1", path = "../link-ippi" }
 
 [build-dependencies]
 ipp-sys-build-help = { version = "0.1.2", path = "../ipp-sys-build-help" }

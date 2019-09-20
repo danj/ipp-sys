@@ -1,10 +1,10 @@
 [package]
-name = "link-ippdc"
-description = "link ippdc library (part of ipp-sys Intel IPP bindings)"
+name = "link-ippvm"
+description = "link ippvm library (part of ipp-sys Intel IPP bindings)"
 version = "0.1.2"
 authors = ["Dan Julius <dan.julius@gmail.com>"]
 build = "build.rs"
-links = "libippdc"
+links = "libippvm"
 repository = "https://github.com/danj/ipp-sys"
 license = "MIT/Apache-2.0"
 categories = ["external-ffi-bindings"]
@@ -12,8 +12,6 @@ readme = "README.md"
 
 [dependencies]
 link-ippcore = { version = "0.1", path = "../link-ippcore" }
-link-ippvm = { version = "0.1", path = "../link-ippvm" }
-link-ipps = { version = "0.1", path = "../link-ipps" }
 
 [build-dependencies]
 ipp-sys-build-help = { version = "0.1.2", path = "../ipp-sys-build-help" }

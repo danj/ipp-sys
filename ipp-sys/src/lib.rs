@@ -74,6 +74,8 @@ extern crate ipp_headers_sys;
 #[cfg(feature="do-linking")]
 extern crate link_ippcore;
 #[cfg(feature="do-linking")]
+extern crate link_ippvm;
+#[cfg(feature="do-linking")]
 extern crate link_ippcv;
 #[cfg(feature="do-linking")]
 extern crate link_ippdc;
