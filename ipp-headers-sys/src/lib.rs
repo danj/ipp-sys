@@ -29,6 +29,10 @@ mod ipp_2019;
 #[cfg(feature="2019")]
 pub use ipp_2019::*;
 #[cfg(feature="2019")]
+pub mod ippcp_2019;
+#[cfg(feature="2019")]
+pub use ippcp_2019 as ippcp;
+#[cfg(feature="2019")]
 const _FORCE_UNIQUE_FEATURE: ::std::os::raw::c_int = 2019;
 
 // Intentionally trigger a compile time error to force a feature flag specifying

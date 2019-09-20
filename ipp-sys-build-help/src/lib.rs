@@ -24,7 +24,10 @@ fn thin_universal_binary(universal_fname: &PathBuf, thin_fname: &PathBuf, arch: 
 
 pub fn ipp_build(libname: &str) {
     let ipproot = match env::var("IPPROOT") {
-        Ok(dir) => dir,
+        Ok(dir) => match libname.as_ref() {
+            "ippcp" => format!("{}cp", dir),
+            _ => dir
+        },
         Err(e) => {
             panic!("Environment variable IPPROOT could not be read: {}", e);
         }

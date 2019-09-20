@@ -80,6 +80,8 @@ extern crate link_ippcv;
 #[cfg(feature="do-linking")]
 extern crate link_ippdc;
 #[cfg(feature="do-linking")]
+extern crate link_ippcp;
+#[cfg(feature="do-linking")]
 extern crate link_ippi;
 #[cfg(feature="do-linking")]
 extern crate link_ipps;
