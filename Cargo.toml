@@ -6,6 +6,7 @@ members = [
     "ipp-sys",
     "link-ippcore",
     "link-ippcv",
+    "link-ippdc",
     "link-ippi",
     "link-ipps",
     ]

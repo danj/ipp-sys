@@ -9,6 +9,7 @@ This directory contains several crates:
  - `ipp-sys-build-help`: helper for build.rs in the `link-*` crates
  - `link-ippcore`: link ippcore library
  - `link-ippcv`: link ippcv library
+ - `link-ippdc`: link ippdc library
  - `link-ippi`: link ippi library
  - `link-ipps`: link ipps library
 
