@@ -20,6 +20,8 @@ multiple `link-*` crates because [the Cargo manifest `links` field supports only
 linking only a single library per
 crate](https://doc.rust-lang.org/cargo/reference/manifest.html#the-links-field-optional).
 
+Link dependencies are done according to the [intel-integrated-performance-primitives-intel-ipp-library-dependencies-by-domain](https://software.intel.com/en-us/articles/intel-integrated-performance-primitives-intel-ipp-library-dependencies-by-domain)
+
 {{readme}}
 
 ## License

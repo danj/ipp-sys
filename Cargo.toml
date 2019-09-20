@@ -5,6 +5,7 @@ members = [
     "ipp-sys-build-help",
     "ipp-sys",
     "link-ippcore",
+    "link-ippvm",
     "link-ippcv",
     "link-ippdc",
     "link-ippi",
